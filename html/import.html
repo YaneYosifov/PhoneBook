@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+    <title>Внасяне на контакти</title>
+</head>
+<body>
+<div class="container">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 well center-block" id="import-well">
+        <div class="page-header">
+            <h1 class="text-center text-warning navbar-inverse">
+                Внасяне на контакти
+            </h1>
+        </div>
+
+        <form class="form-horizontal center-block" method="post" id="contact-form" spellcheck="false" action="phonebook.html">
+            <div class="form-group">
+
+                <div class="col-xs-12">
+            <textarea class="form-control" id="import-textarea" rows="13" data-toggle="tooltip"
+                      placeholder="Внасяне на множество контакти наведнъж"
+                      title="Всеки контакт трябва да започва на нов ред. Полетата в рамките на даден контакт
+трябва да са разделени с TAB, като се очаква те да бъдат в следната последователност:
+телефонен номер, име на контакт, населено място, пол („м“ или „ж“), зодия, бележки.
+Пълният набор от данни е задължителен с изключение на бележките накрая.
+При наличие на грешка, контактите ще се внесат грешно или изобщо няма да се внесат.
+Бъдете внимателни и следвайте примера по-долу (не забравяйте да разделяте с TAB).
+
++359878663098      Минчо      София      м      Риби
+029204473      Ивайла      Варна      ж      Козирог      стационарен телефон
+032265401      Александър Станимиров      София      м      Телец
+0885328559      Валентина Петрова      София      ж      Козирог      служебен от 2014-та"></textarea>
+                </div>
+            </div>
+
+            <div class="panel-footer row">
+                <div class="col-xs-6">
+                    <button type="reset" class="btn pull-left btn-warning center-block button">
+                        <span class="glyphicon glyphicon-erase"></span> Изчистване
+                    </button>
+                </div>
+                <div class="col-xs-1">
+                    <button id="import-cancel-button" class="btn pull-right btn-success center-block button">
+                        <span class="glyphicon glyphicon-remove"></span> Отказ
+                    </button>
+                </div>
+                <div class="col-xs-5">
+                    <button type="submit" id="do-import-button"
+                            class="btn pull-left btn-success center-block submit button">
+                        <span class="glyphicon glyphicon-check"></span> Внасяне на всички
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+<!-- Libs -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- App -->
+<script src="../js/events/import-events.js"></script>
+<script src="../js/core/contact-controller.js"></script>
+<script src="../js/helpers/redirection.js"></script>
+
+</body>
+</html>

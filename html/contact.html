@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+    <title>Контакт</title>
+</head>
+<body>
+<div class="container">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6 well" id="contact-well">
+        <div class="page-header">
+            <h1 class="text-center text-warning navbar-inverse">
+                Контакт
+            </h1>
+        </div>
+
+        <form class="form-horizontal center-block" method="post" id="contact-form" spellcheck="false"
+              action="phonebook.html">
+            <div class="form-group">
+                <label for="phone" class="col-xs-3 control-label">Телефон</label>
+
+                <div class="col-xs-9">
+                    <input type="text" class="form-control" id="phone" name="phone"
+                           placeholder="+359xxxxxxxxx / 0xxxxxxxxx">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name" class="col-xs-3 control-label">Име</label>
+
+                <div class="col-xs-9">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Име" maxlength="30">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="location" class="col-xs-3 control-label" id="location-label">Населено място</label>
+
+                <div class="col-xs-9">
+                    <input type="text" class="form-control" id="location" name="location" placeholder="Град / село"
+                           maxlength="30">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-xs-3 control-label">Пол</label>
+
+                <div class="col-xs-9">
+                    <div class="btn-group" data-toggle="buttons" id="radio-group-gender">
+                        <label class="btn btn-info gender-button-label">
+                            <input type="radio" name="gender" id="man" autocomplete="off" value="Мъж">
+                            <span class="glyphicon glyphicon-user"></span> Мъж
+                        </label>
+                        <label class="btn btn-warning gender-button-label">
+                            <input type="radio" name="gender" id="woman" autocomplete="off" value="Жена">
+                            <span class="glyphicon glyphicon-heart"></span> Жена
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="zodiac" class="col-xs-3 control-label">Зодия</label>
+
+                <div class="col-xs-9">
+                    <select id="zodiac" class="form-control">
+                        <option></option>
+                        <option>Овен</option>
+                        <option>Телец</option>
+                        <option>Близнаци</option>
+                        <option>Рак</option>
+                        <option>Лъв</option>
+                        <option>Дева</option>
+                        <option>Везни</option>
+                        <option>Скорпион</option>
+                        <option>Стрелец</option>
+                        <option>Козирог</option>
+                        <option>Водолей</option>
+                        <option>Риби</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="notes" class="col-xs-3 control-label">Бележки</label>
+
+                <div class="col-xs-9">
+                    <textarea class="form-control" id="notes" rows="3" placeholder="Текст" maxlength="500"></textarea>
+                </div>
+            </div>
+            <div class="panel-footer row">
+                <div class="col-xs-6">
+                    <div id="delete-contact-button" class="btn pull-left btn-danger center-block button">
+                        <span class="glyphicon glyphicon-trash"></span> Изтриване
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <div id="contact-cancel-button" class="btn pull-right btn-success center-block button">
+                        <span class="glyphicon glyphicon-remove"></span> Отказ
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <button type="submit" id="add-contact" class="btn pull-left btn-success center-block submit button">
+                        <span class="glyphicon glyphicon-plus-sign"></span> Добавяне
+                    </button>
+                    <div id="edit-contact-button" class="btn pull-left btn-success center-block button">
+                        <span class="glyphicon glyphicon-pencil"></span> Редакция...
+                    </div>
+                    <button type="submit" id="edit-done-button" class="btn pull-left btn-success center-block submit button">
+                        <span class="glyphicon glyphicon-ok-sign"></span> Готово
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
+
+<!-- Libs -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/additional-methods.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- App -->
+<script src="../js/helpers/contact-validator.js"></script>
+<script src="../js/core/contact-controller.js"></script>
+<script src="../js/events/contact-events.js"></script>
+<script src="../js/helpers/redirection.js"></script>
+
+</body>
+</html>
