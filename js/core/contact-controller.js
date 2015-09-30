@@ -34,15 +34,15 @@ var contact = (function ($) {
             contacts.push(JSON.parse(localStorage.getItem(localStorage.key(i))));
         }
         contacts.sort(function (a, b) {
-			var aName = a.name.toLowerCase(),
-				bName = b.name.toLowerCase();
-			if (aName < bName) {
-				return -1;
-			}
-			if (aName > bName) {
-				return 1;
-			}
-			return 0;
+            var aName = a.name.toLowerCase(),
+                bName = b.name.toLowerCase();
+            if (aName < bName) {
+                return -1;
+            }
+            if (aName > bName) {
+                return 1;
+            }
+            return 0;
         });
 
         return contacts;
