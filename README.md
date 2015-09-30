@@ -1,15 +1,13 @@
-<div class=WordSection1>
-
 <p class=Standard align=center style='text-align:center'><b><span
-style='font-size:18.0pt'>Телефонен указател – </span></b><b><span lang=EN-US
+style='font-size:18.0pt'>Телефонен указател – </span></b><b><span lang=bg
 style='font-size:18.0pt'>HTML5/JS</span></b></p>
 
-<p class=Standard align=center style='text-align:center'><b><span lang=EN-US
+<p class=Standard align=center style='text-align:center'><b><span lang=bg
 style='font-size:18.0pt'>&nbsp;</span></b></p>
 
 <p class=Standard>&nbsp;</p>
 
-<p class=Standard>Да се напише w<span lang=EN-US>eb </span>приложение за
+<p class=Standard>Да се напише w<span lang=bg>eb </span>приложение за
 управление на контакти.</p>
 
 <p class=Standard>&nbsp;</p>
@@ -86,7 +84,7 @@ style='font-family:OpenSymbol'>–<span style='font:7.0pt "Times New Roman"'>&nbsp
    </td>
    <td width=90 valign=top style='width:67.5pt;border:solid black 1.0pt;
    border-right:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
-   <p class=TableHeading><span lang=EN-US>Required?</span></p>
+   <p class=TableHeading><span lang=bg>Required?</span></p>
    </td>
    <td width=406 valign=top style='width:304.85pt;border:solid black 1.0pt;
    padding:2.75pt 2.75pt 2.75pt 2.75pt'>
@@ -170,7 +168,7 @@ style='font-family:OpenSymbol'>–<span style='font:7.0pt "Times New Roman"'>&nbsp
   </td>
   <td width=406 valign=top style='width:304.85pt;border:solid black 1.0pt;
   border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
-  <p class=TableContents>Падащ списък (<span lang=EN-US>combo box) </span>с
+  <p class=TableContents>Падащ списък (<span lang=bg>combo box) </span>с
   предефинирани стойности.</p>
   </td>
  </tr>
@@ -199,8 +197,8 @@ style='font-family:OpenSymbol'>–<span style='font:7.0pt "Times New Roman"'>&nbsp
 
 <p class=Standard>В този екран трябва да се визуализират данните по даден
 запис, но за разлика от екрана за добавяне/редакция на запис, тук данните
-трябва да са <span lang=EN-US>read-only </span>(без <span lang=EN-US>input </span>контроли<span
-lang=EN-US>).</span></p>
+трябва да са <span lang=bg>read-only </span>(без <span lang=bg>input </span>контроли<span
+lang=bg>).</span></p>
 
 <p class=Standard>&nbsp;</p>
 
@@ -213,7 +211,7 @@ lang=EN-US>).</span></p>
 <p class=Standard>&nbsp;</p>
 
 <p class=Standard>Този екран трябва да съдържа голямо многоредово текстово
-поле, в което потребителят може да въведе (<span lang=EN-US>paste-</span>не)
+поле, в което потребителят може да въведе (<span lang=bg>paste-</span>не)
 данни за много записи, които да бъдат импортирани наведнъж.</p>
 
 <p class=Standard>Форматът на данните е следният:</p>
@@ -225,7 +223,7 @@ style='font-family:StarSymbol'>&#10146;<span style='font:7.0pt "Times New Roman"
 <p class=Standard style='margin-left:54.0pt;text-indent:-18.0pt'><span lang=DE
 style='font-family:StarSymbol'>&#10146;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span>Полетата в рамките на даден запис са разделени с <span
-lang=EN-US>TAB, </span>като те се очаква да бъдат в следната последователност:</p>
+lang=bg>TAB, </span>като те се очаква да бъдат в следната последователност:</p>
 
 <p class=Standard style='margin-left:90.0pt;text-indent:-18.0pt'><span lang=DE
 style='font-family:OpenSymbol'>–<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -262,7 +260,7 @@ style='font-family:OpenSymbol'>–<span style='font:7.0pt "Times New Roman"'>&nbsp
 <p class=Standard><b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
 
 <p class=Standard>С цел опростяване на задачата, нека няма  реален сървър, а
-вместо това данните да се персистират в <span lang=EN-US>localStorage</span>.</p>
+вместо това данните да се персистират в <span lang=bg>localStorage</span>.</p>
 
 <p class=Standard><span lang=DE>&nbsp;</span></p>
 
@@ -272,12 +270,12 @@ style='font-family:OpenSymbol'>–<span style='font:7.0pt "Times New Roman"'>&nbsp
 
 <p class=Standard><span lang=DE>Решението трябва да работи на всички популярни
 съвременни браузери (Chrome, FF, Safari, Opera, IE8+). </span>Разрешава се
-ползването и на външни библиотеки <span lang=EN-US>(</span>например <span
-lang=EN-US>jQuery), </span>желателно чрез <span lang=EN-US>CDN.</span></p>
+ползването и на външни библиотеки <span lang=bg>(</span>например <span
+lang=bg>jQuery), </span>желателно чрез <span lang=bg>CDN.</span></p>
 
 <p class=Standard><span lang=DE>&nbsp;</span></p>
 
-<p class=Standard>В условието умишлено няма <span lang=EN-US>mockup </span>екрани
+<p class=Standard>В условието умишлено няма <span lang=bg>mockup </span>екрани
 и изисквания за подредбата на визуалните компоненти. От кандидатите се очаква
 да стилизират приложението по такъв начин, че интерфейсът да бъде интуитивен,
 удобен и приятен за работа.</p>
